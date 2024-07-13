@@ -15,14 +15,9 @@ public class Cliente {
 	private String nome;
 	private Endereco endereco;
 	private int telefone;
+	private String email;
 	
 	@ManyToOne
-	
-	
-	private String email;
-
-	
-
 	public Long getId() {
 		return id;
 	}
